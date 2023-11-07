@@ -1,0 +1,76 @@
+name: i2c_aht21b
+description: An application on Flutter to receive data from the AHT21B sensor
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  ffi: ^2.1.0
+  win32: ^3.0.0
+  flutter_riverpod: ^2.4.4
+  shared_preferences: ^2.2.2
+  flutter_launcher_icons: ^0.13.1
+  window_manager: ^0.3.7
+  flutter_single_instance: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: false
+  ios: false
+  web:
+    generate: false
+  macos:
+    generate: false
+  windows:
+    generate: true
+    image_path: "assets/icon3.png"
+    icon_size: 256 # min:48, max:256, default: 48
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
