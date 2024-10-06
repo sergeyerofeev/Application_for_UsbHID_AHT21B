@@ -1,3 +1,3 @@
-library hidapi_dart;
+library;
 
 export './hid.dart' show HID;
