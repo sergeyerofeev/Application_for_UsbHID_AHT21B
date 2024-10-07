@@ -9,7 +9,7 @@ final storageProvider = Provider<IDataBase>((ref) => throw UnimplementedError())
 final connectProvider = StateProvider.autoDispose<bool>((ref) => false);
 
 // Провайдер значения влажности
-final humidityProvider = StateProvider.autoDispose<double>((ref) => 0);
+final humidityRawProvider = StateProvider.autoDispose<int?>((ref) => null);
 
 // Провайдер значения температуры
-final temperatureProvider = StateProvider.autoDispose<double>((ref) => 0);
+final temperatureRawProvider = StateProvider.autoDispose<int?>((ref) => null);
